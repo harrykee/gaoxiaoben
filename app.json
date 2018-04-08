@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/home/detail/detail",
+    "pages/comp/comp",
+    "pages/mine/mine",
+    "pages/bench/bench",
+    "pages/bench/detpro/detpro",
+    "pages/bench/write/write",
+    "pages/bench/ask/ask"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "高校本",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#de3344",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "imgs/home.png",
+      "selectedIconPath": "imgs/home_sel.png"
+    },
+    {
+      "pagePath": "pages/comp/comp",
+      "text": "综合",
+      "iconPath": "imgs/alls.png",
+      "selectedIconPath": "imgs/alls_sel.png"
+    },
+    {
+      "pagePath": "pages/bench/bench",
+      "text": "问答",
+      "iconPath": "imgs/ques.png",
+      "selectedIconPath": "imgs/ques_sel.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "imgs/mine.png",
+      "selectedIconPath": "imgs/mine_sel.png"
+    }]
+  }
+}

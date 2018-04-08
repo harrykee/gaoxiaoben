@@ -1,0 +1,59 @@
+/* pages/bench/bench.wxss */
+.put-question{
+  height:60rpx;
+  width:100%;  
+}
+.question{
+  position: absolute;
+  right:20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  height:60rpx;
+  width:100rpx;
+  color: #FFFFFF;
+  font-size:30rpx;
+  background-color:#DE3344;
+  border-radius: 6rpx;
+
+}
+.que-global{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quetioner{
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+}
+.que-card{
+  width:720rpx;
+  height:auto;
+  border:2rpx solid #DE3344;
+  border-radius: 8rpx;
+}
+.que-label{
+  height:90rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #DE3344;
+}
+.que-tag{
+  height:88rpx;
+  width:247rpx;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.icons{
+  height:50rpx;
+  width:50rpx;
+}
