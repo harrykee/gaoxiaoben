@@ -29,6 +29,17 @@ page{
   width:180rpx;
   border-radius:90rpx;  
 }
+.username{
+  height:60rpx;
+  width:360rpx;
+  margin-top:40rpx;
+  font-size:48rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:#FFFFFF;
+}
 .strip-title{
   height: 100rpx;
   width: 100%;

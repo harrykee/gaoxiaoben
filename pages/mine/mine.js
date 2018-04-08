@@ -8,6 +8,16 @@ Page({
   
   },
 
+  LinkTonews:function(){
+    wx.navigateTo({
+      url: 'news/news',
+    })
+  },
+  LinkToqanda:function(){
+    wx.navigateTo({
+      url: 'qanda/qanda',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -5,10 +5,10 @@
       <image src='../../imgs/txmb.jpg' class="tx-img"></image>
     </view>
   </view>
-  <view>木小鱼</view>
+  <view class = 'username'>木小鱼</view>
 </view>
 
-<view class='strip-title'>
+<view class='strip-title' bindtap='LinkTonews'>
   <view class='head-por'>
     <image src='../../imgs/news.png' style='height:60rpx;width:60rpx;' />
   </view>
@@ -18,7 +18,7 @@
   </view>
 </view>
 
-<view class='strip-title'>
+<view class='strip-title' bindtap='LinkToqanda'>
   <view class='head-por'>
     <image src='../../imgs/quetion.png' style='height:60rpx;width:60rpx;' />
   </view>

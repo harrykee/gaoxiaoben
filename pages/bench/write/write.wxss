@@ -1,20 +1,36 @@
 /* pages/bench/write/write.wxss */
 .put-question{
-  height:60rpx;
-  width:100%;  
+  height:100rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
 }
 .question{
   position: absolute;
-  right:20rpx;
+  right:30rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content:center;
-  height:60rpx;
-  width:100rpx;
+  height:70rpx;
+  width:124rpx;
   color: #FFFFFF;
-  font-size:30rpx;
-  background-color:#24CF5F;
-  border-radius: 6rpx;
+  font-size:34rpx;
+  background-color:#DE3344;
+  border-radius: 8rpx;
 
+}
+.answer-write{
+  height:500rpx;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.program-write-main{
+  height:360rpx;
+  width:700rpx;
+  border:1rpx solid #EEEEEE;
 }

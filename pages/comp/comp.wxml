@@ -1,9 +1,50 @@
 <!--pages/comp/comp.wxml-->
+<view class='search-card'>
+  <view class='search-background'>
+    <input class='search-write' type='text' placeholder='高校搜索' placeholder-style='color: #707070;font-size:40rpx;'></input>
+    <image src='../../imgs/search.png' style='height:60rpx;width:60rpx;'></image>
+  </view>
+</view>
+
+<view class='comp-global'>
+  <view class='comp-list' style='background-color:#EED0B4;'>历年分数线</view>
+  <view class='comp-list' style='background-color:#8FDE70;'>分数走势</view>
+  <view class='comp-list' style='background-color:#C2D8E3;'>专业分数线</view>
+  <view class='comp-list' style='background-color:#56D0FF;'>学院设置</view>
+  <view class='comp-list' style='background-color:#E8A6C7;'>历年高考分数线</view>
+  <view class='comp-list' style='background-color:#8BAC3B;'>志愿填报指南</view>
+</view>
+
+<view style='border-bottom:16rpx solid #E6E6E6;'>
+  <view class='new-tittle'>
+    <image src='../../imgs/new.png' style='margin-left:30rpx;height:50rpx;width:50rpx;' />
+    <text style='margin-left:10rpx;font-weight:bold;width:540rpx;'>高考知识点</text>
+    <text style='color:#de3344;font-size:44rpx;'>更多</text>
+  </view>
+  <view wx:for="{{schnews}}">
+    <navigator open-type='navigate' url='knows/knows'>
+      <view class='news-list'>
+      <image src='../../imgs/point.png' style='margin-left:30rpx;height:40rpx;width:40rpx;' />
+      <text style='margin-left:10rpx;'>{{item.news}}</text>
+    </view>
+    </navigator>
+    
+  </view>
+</view>
+
 <view>
-  <view class='comp-list' style='background-color:red;'>历年分数线</view>
-  <view class='comp-list' style='background-color:green;'>分数走势</view>
-  <view class='comp-list' style='background-color:red;'>专业分数线</view>
-  <view class='comp-list' style='background-color:yellow;'>学院设置</view>
-  <view class='comp-list' style='background-color:red;'>历年高考分数线</view>
-  <view class='comp-list' style='background-color:blue;'>志愿填报指南</view>
+  <view class='new-tittle'>
+    <image src='../../imgs/new.png' style='margin-left:30rpx;height:50rpx;width:50rpx;' />
+    <text style='margin-left:10rpx;font-weight:bold;width:540rpx;'>各科复习方法</text>
+    <text style='color:#de3344;font-size:44rpx;'>更多</text>
+  </view>
+  <view wx:for="{{reviewways}}">
+  <navigator open-type='navigate' url='ways/ways'>
+    <view class='news-list'>
+      <image src='../../imgs/point.png' style='margin-left:30rpx;height:40rpx;width:40rpx;' />
+      <text style='margin-left:10rpx;'>{{item.ways}}</text>
+    </view>
+  </navigator>
+    
+  </view>
 </view>

@@ -7,8 +7,9 @@ Page({
   data: {
     imageWidth: wx.getSystemInfoSync().windowWidth,
     imgUrls: [
-      { route: '../../../imgs/img02.jpg' },
-      { route: '../../../imgs/img01.jpg' }
+      { route: '../../../imgs/fzu01.jpg' },
+      { route: '../../../imgs/xmu.jpg' },
+      { route: '../../../imgs/jmu01.jpg' }
     ],
     interval: 3000,
     duration: 1000,

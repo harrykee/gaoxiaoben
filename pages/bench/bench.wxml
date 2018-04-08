@@ -1,32 +1,32 @@
 <!--pages/bench/bench.wxml-->
-<view class='put-question'>
   <view class='question' bindtap='bindtapAsk'>提问</view>
-</view>
 
 <view class='que-global'>
+  <view class='cards' style='' wx:for="{{quetions}}" wx:key="key">
+    <view class='que-card'>
+      <navigator open-type='navigate' url='detpro/detpro'>
+        <view class='quetioner'>
+          <image src='{{item.head}}' style='height:80rpx;width:80rpx;' />
+          <text>{{item.tittle}}</text>
+        </view>
+        <view class='que-label'>
+          <view class='que-tag'>
+            <image src='../../imgs/clock.png' class='icons' />
+            <view>{{item.time}}</view>
+          </view>
+          <view class='que-tag'>
+            <image src='../../imgs/ping.png' class='icons' />
+            <view>{{item.anwsers}}</view>
+          </view>
+          <view class='que-tag'>
+            <image src='../../imgs/chak.png' class='icons' />
+            <view>{{item.views}}</view>
+          </view>
+        </view>
+      </navigator>
 
-  <view class='que-card' wx:for="{{quetions}}" wx:key="key">
-  <navigator open-type='navigate' url='detpro/detpro'>
-    <view class='quetioner'>
-      <image src='{{item.head}}' style='height:80rpx;width:80rpx;'/>
-      <text>{{item.tittle}}</text>
     </view>
-    <view class='que-label'>
-      <view class='que-tag'>
-        <image src='../../imgs/clock.png' class='icons'/>
-        <view>{{item.time}}</view>
-      </view>
-      <view class='que-tag'>
-        <image src='../../imgs/ping.png' class='icons'/>
-        <view>{{anwsers}}</view>
-      </view>
-      <view class='que-tag'>
-        <image src='../../imgs/chak.png' class='icons'/>
-        <view>{{item.views}}</view>
-      </view>
-    </view>
-  </navigator>
-    
+
   </view>
 
 </view>

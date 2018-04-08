@@ -1,35 +1,28 @@
 <!--pages/bench/detpro/detpro.wxml-->
-<view class='answer-list'>
-  <view class='quedetail'>
-    <view class='que-title'>
-      <image src='../../../imgs/icons/more-que.png' style="height:38rpx;width:38rpx;"></image>
-      <text>集美大学的哪个专业比较好</text>
-    </view>
-    <text>谁可以告知集美大学的那么多专业中，哪个专业是比较好的</text>
-    <view>
-      <text>兵哥</text>
-      <text>9天前</text>
-      <text>160</text>
-    </view>
-  </view>
-  <view class='que-middle'>
-    <image src='../../../imgs/icons/more-answer.png'  style='height:38rpx;width:38rpx;'></image>
-    <text>6条回答</text>
-  </view>
 
-  <view class='answerslist'>
-    <view>
-      <image></image>
-      <view class='ansdetail'>
-        <view>沐语嫣</view>
-        <view>2018-03-19 14：39</view>
-      </view>
-      <view>回复</view>
+<view class='que-global'>
+  <view class='cards'>
+    <view class='que-card'>
+        <view class='quetioner'>
+          <image src='../../../imgs/txmb.jpg' style='height:80rpx;width:80rpx;' />
+          <text>csdavsdabdsgas</text>
+        </view>
     </view>
+  </view>
+  <view class='answer-module'>
+    <view class='tittle'> 8条回答</view>
+    <view class='cardss'>
+    <view class='que-card'>
+        <view class='quetioner'>
+          <image src='../../../imgs/txmb.jpg' style='height:80rpx;width:80rpx;' />
+          <text>v大把大把的敢死队敢死队哈哈是根深蒂固的是公司的嘎敢死队敢死队上的噶似的嘎是个多个地方是根深蒂固 是告诉对方是山豆根山豆根山豆根是上的噶似的嘎试试敢死队风格是个大帅哥是灌水灌水的故事大纲死队 但是公司的个死队各大公司的敢死队敢死队发噶似个给发个是个</text>
+        </view>
+    </view>
+  </view>
   </view>
 </view>
 
 <view class='answer' bindtap="bindtapWrite">
-  <image src='../../../imgs/icons/write.png' style='height:56rpx;width:56rpx;'></image>
+  <image src='../../../imgs/write.png' style='height:56rpx;width:56rpx;'></image>
   <text style='color:#FFFFFF;margin-left:20rpx;'>我来回答</text>
 </view>

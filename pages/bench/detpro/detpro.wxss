@@ -10,29 +10,53 @@
   align-items: center;
   justify-content: center;
 }
-.answer-list{
+.que-global{
   width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.quedetail{
+.quetioner{
   height:auto;
   width:100%;
-  border-bottom:20rpx solid #202020;
-}
-.que-title{
+  margin-top:10rpx;
   display:flex;
-  flex-direction: row;
-}
-.que-middle{
-  height:110rpx;
-  width:100%;
+  flex-direction: column;
+  border-bottom:2rpx solid #EEEEEE;
   
 }
-.answerslist{
+.cards{
   height:auto;
   width:100%;
-  border-top:1rpx solid #202020;
-}
-.ansdetail{
   display:flex;
-  flex-direction:column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom:18rpx solid #EEEEEE;
+}
+.cardss{
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom:2rpx solid #EEEEEE;
+}
+.que-card{
+  width:720rpx;
+  height:auto;
+}
+.answer-module{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tittle{
+  height:100rpx;
+  width:100%;
+  border-bottom: 4rpx solid #EEEEEE;
 }

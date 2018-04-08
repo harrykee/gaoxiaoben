@@ -1,12 +1,58 @@
 /* pages/comp/comp.wxss */
+.search-card{
+  height:100rpx;
+  width:100%;
+  background-color: #DE3344;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search-background{
+  height:80rpx;
+  width:600rpx;
+  background-color: #FFFFFF;
+  border:1rpx solid #FFFFFF;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  filter:opacity(80%);
+}
+.search-write{
+  height:70rpx;
+  width:500rpx;
+}
+.comp-global{
+  width:100%;
+  height:310rpx;
+  border-bottom: 16rpx solid #EEEEEE;
+}
 .comp-list{
-  height:200rpx;
-  width:200rpx;
+  height:140rpx;
+  width:236rpx;
   float: left;
-  margin-left:20rpx;
+  margin-left:10rpx;
   margin-top:10rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 10rpx;
+}
+.new-tittle{
+  height:96rpx;
+  width:100%;
+  border-bottom: 1rpx solid #EEEEEE;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.news-list{
+  height:80rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
