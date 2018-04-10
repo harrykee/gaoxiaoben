@@ -1,2 +1,4 @@
 <!--pages/comp/lines/lines.wxml-->
-<text>pages/comp/lines/lines.wxml</text>
+<view class="global">
+  <ec-canvas id="mychart-dom-gauge" canvas-id="mychart-gauge" ec="{{ ec }}"></ec-canvas>
+</view>

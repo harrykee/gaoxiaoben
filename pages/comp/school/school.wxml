@@ -1,2 +1,14 @@
 <!--pages/comp/school/school.wxml-->
-<text>pages/comp/school/school.wxml</text>
+<view class='search-card'>
+  <view class='search-background'>
+    <input class='search-write' type='text' placeholder='高校搜索' placeholder-style='color: #707070;font-size:33rpx;'></input>
+    <image src='../../../imgs/search.png' style='height:50rpx;width:50rpx;' bindtap='ListSchools'/>
+  </view>
+</view>
+
+<view class='sch-global'>
+  <view class='school-list' wx:for="{{schools}}">
+    <image src='{{item.badge}}' style='height:60rpx;width:60rpx;'></image>
+    <view class='school-detail'>{{item.name}}</view>
+  </view>
+</view>

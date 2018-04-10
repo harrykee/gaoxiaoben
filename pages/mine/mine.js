@@ -18,6 +18,11 @@ Page({
       url: 'qanda/qanda',
     })
   },
+  LinkToreads: function () {
+    wx.navigateTo({
+      url: 'reads/reads',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

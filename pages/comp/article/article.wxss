@@ -1,0 +1,27 @@
+/* pages/comp/article/article.wxss */
+.article-global{
+  height:auto;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-tittle{
+  height:auto;
+  width:94%;
+  padding-bottom: 20rpx;
+}
+.article-body{
+  width:94%;
+  font-size: 34rpx;
+}
+.article-other{
+  height:70rpx;
+  width:94%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30rpx;
+  border-bottom: 18rpx solid #eeeeee;
+  border-top:2rpx solid #eeeeee;
+}

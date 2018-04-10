@@ -1,18 +1,55 @@
 /* pages/home/detail/detail.wxss */
+page{
+  width:100%;
+  height:100%;
+}
 .swiper-tab{ 
-  width: 100%; 
-  border-bottom: 2rpx solid #eeeeee; 
-  text-align: center; 
-  line-height: 80rpx;} 
-.swiper-tab-item{ font-size: 30rpx; 
-  display: inline-block; 
-  width: 25%; 
-  color: #666666; 
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  border-bottom:16rpx solid #eeeeee;
+  text-align: center;
+} 
+
+.swiper-tab-item{ 
+  display: inline-block;  
+  width: 140rpx; 
+  margin-left: 38rpx;
+  padding-top: 35rpx;
+  font-size:34rpx; 
 } 
 .on{ color: #DE3344; 
   border-bottom: 5rpx solid #DE3344;} 
- 
-.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; } 
-.swiper-box view{ 
-  text-align: center; 
-} 
+  
+.detail-list{
+  height:auto;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:30rpx;
+}
+.list-card{
+  height:70rpx;
+  width:680rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contet-text{
+  height:auto;
+  width:92%;
+  font-size:33rpx;
+}
+.college-table{
+  height:auto;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 33rpx;
+
+}
+.map-like{
+  height:500rpx;
+  width:680rpx;
+}

@@ -63,6 +63,6 @@
   
 }
 .icons{
-  height:50rpx;
-  width:50rpx;
+  height:40rpx;
+  width:40rpx;
 }

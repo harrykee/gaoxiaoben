@@ -27,12 +27,12 @@
     <image src='../../imgs/arrows.png' style='height:60rpx;width:60rpx;'/>
   </view>
 </view>
-<view class='strip-title'>
+<view class='strip-title' bindtap='LinkToreads'>
   <view class='head-por'>
-    <image src='../../imgs/news.png' style='height:60rpx;width:60rpx;' />
+    <image src='../../imgs/read.png' style='height:60rpx;width:60rpx;' />
   </view>
   <view class='headline'>
-    <text class='headedit'>我的消息</text>
+    <text class='headedit'>阅读记录</text>
     <image src='../../imgs/arrows.png' style='height:60rpx;width:60rpx;'/>
   </view>
 </view>

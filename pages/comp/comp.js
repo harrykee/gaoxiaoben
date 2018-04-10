@@ -12,11 +12,17 @@ Page({
         news: "这套金砖国家必知考题，你能对多少",
       },
       {
+        news: "这套金砖国家必知考题，你能对多少",
+      },
+      {
         news: "2017年时事政治：大数据看金砖峰",
       }],
 
     reviewways: [{
       ways: "高考理综三巨头之一：生物的备考技巧",
+    },
+    {
+      ways: "高考理综无耻得分法汇总",
     },
     {
       ways: "高考理综无耻得分法汇总",
@@ -39,7 +45,32 @@ Page({
   onReady: function () {
   
   },
+  GetNewsMore:function(){
+    wx.navigateTo({
+      url: 'more/more',
+    })
+  },
 
+  GotoLines:function(){
+    wx.navigateTo({
+      url: 'lines/lines',
+    })
+  },
+  ListSchools:function(){
+    wx.navigateTo({
+      url: 'school/school',
+    })
+  },
+  GotoKnows:function(){
+    wx.navigateTo({
+      url: 'knows/knows',
+    })
+  },
+  GotoWays: function () {
+    wx.navigateTo({
+      url: 'ways/ways',
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

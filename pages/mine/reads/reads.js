@@ -1,38 +1,11 @@
-// pages/comp/school/school.js
+// pages/mine/reads/reads.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    schools:[
-      {badge:"../../../imgs/jmu.jpg",
-      name:"集美大学"},
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-      {
-        badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
-      },
-    ]
+  
   },
 
   /**

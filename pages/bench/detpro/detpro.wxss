@@ -22,9 +22,7 @@
   width:100%;
   margin-top:10rpx;
   display:flex;
-  flex-direction: column;
-  border-bottom:2rpx solid #EEEEEE;
-  
+  flex-direction: column; 
 }
 .cards{
   height:auto;
