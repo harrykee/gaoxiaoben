@@ -1,21 +1,49 @@
 <!--pages/bench/detpro/detpro.wxml-->
+<!-- <view class='quetioner'>
+          <view class='quetion-infomatin'>
+            <image src='{{item.head}}' style='height:80rpx;width:80rpx;  border-radius: 8rpx;' />
+            <view class='quetion-name-time'>
+              <text>木小鱼鱼</text>
+              <text style='font-size:30rpx;color:#E2E2E2;'>2018-04-03</text>
+            </view>
+          </view>
+          
+          <text style='font-size:38rpx;'>{{item.tittle}}</text>
+        </view> -->
 
 <view class='que-global'>
   <view class='cards'>
     <view class='que-card'>
         <view class='quetioner'>
-          <image src='../../../imgs/txmb.jpg' style='height:80rpx;width:80rpx;' />
-          <text>这是哪首谁给我发个我给而望各位哥特各位如果而同为耳根微微各位各位如果微软个违反问个问我学校</text>
+          <view class='quetion-infomatin'>
+            <image src='../../../imgs/txmb.jpg' style='height:80rpx;width:80rpx;  border-radius: 8rpx;' />
+            <view class='quetion-name-time'>
+              <text>木小鱼鱼</text>
+              <text style='font-size:30rpx;color:#E2E2E2;'>2018-04-03</text>
+            </view>
+          </view>
+          
+          <text style='font-size:38rpx;'>aFASDK哦安东诺夫v阿森纳撒发生的开发的撒快女卡死就能看见三款插死你</text>
         </view>
     </view>
   </view>
   <view class='answer-module'>
-    <view class='tittle'> 8条回答</view>
-    <view class='cardss'>
+    <view class='tittle'> 
+      <image src='../../../imgs/anwsers.png' style='height:50rpx;width:50rpx;'/>
+      <text style='margin-left:20rpx;'>8条回答</text>
+    </view>
+    <view class='anwser-card' wx:for="{{anwsers}}" wx:key="key">
     <view class='que-card'>
         <view class='quetioner'>
-          <image src='../../../imgs/txmb.jpg' style='height:80rpx;width:80rpx;' />
-          <text>v大把大把的敢死队敢死队哈哈是根深蒂固的是公司的嘎敢死队敢死队上的噶似的嘎是个多个地方是根深蒂固 是告诉对方是山豆根山豆根山豆根是上的噶似的嘎试试敢死队风格是个大帅哥是灌水灌水的故事大纲死队 但是公司的个死队各大公司的敢死队敢死队发噶似个给发个是个</text>
+          <view class='quetion-infomatin'>
+            <image src='{{item.head}}' style='height:80rpx;width:80rpx;  border-radius: 8rpx;' />
+            <view class='quetion-name-time'>
+              <text>{{item.name}}</text>
+              <text style='font-size:30rpx;color:#E2E2E2;'>{{item.time}}</text>
+            </view>
+          </view>
+          
+          <text style='font-size:36rpx;'>{{item.anwser}}</text>
         </view>
     </view>
   </view>

@@ -1,36 +1,36 @@
 <!--pages/comp/comp.wxml-->
-<view class='search-card'>
+<!-- <view class='search-card'>
   <image src='../../imgs/logof.png' style='height:50rpx;width:120rpx;margin-top:6rpx;' />
   <view class='search-background'>
     <input class='search-write' type='text' placeholder='高校搜索' placeholder-style='color: #707070;font-size:33rpx;'></input>
     <image src='../../imgs/search.png' style='height:50rpx;width:50rpx;' bindtap='ListSchools'></image>
   </view>
-</view>
+</view> -->
 
 <view class='comp-global'>
-  <view class='comp-list' style='background-color:#EED0B4;' bindtap='GotoLines'>
+  <view class='comp-list' style='background-color:#1482C1;' bindtap='GotoLines'>
+    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
+    <text style='color:#FFFFFF;'>历年批次线</text>
+  </view>
+  <view class='comp-list' style='background-color:#89D453;' bindtap='ListSchools'>
+    <image src='../../imgs/degree.png' style='height:60rpx;width:60rpx;'></image>
+    <text style='color:#FFFFFF;'>高校检索</text>
+  </view>
+  <view class='comp-list' style='background-color:#F4585B;' bindtap='GotoWays'>
+    <image src='../../imgs/major.png' style='height:60rpx;width:60rpx;'></image>
+    <text style='color:#FFFFFF;'>院校录取线</text>
+  </view>
+  <view class='comp-list' style='background-color:#EFBB43;' bindtap='GotoKnows'>
+    <image src='../../imgs/search.png' style='height:60rpx;width:60rpx;'></image>
+    <text style='color:#FFFFFF;'>专业查询</text>
+  </view>
+  <view class='comp-list' style='background-color:#F7774A;' bindtap='GotoLines'>
     <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
     <text style='color:#FFFFFF;'>历年分数线</text>
   </view>
-  <view class='comp-list' style='background-color:#8FDE70;' bindtap='GotoKnows'>
-    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
-    <text style='color:#FFFFFF;'>历年分数线</text>
-  </view>
-  <view class='comp-list' style='background-color:#C2D8E3;' bindtap='GotoWays'>
-    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
-    <text style='color:#FFFFFF;'>历年分数线</text>
-  </view>
-  <view class='comp-list' style='background-color:#56D0FF;' bindtap='GotoLines'>
-    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
-    <text style='color:#FFFFFF;'>历年分数线</text>
-  </view>
-  <view class='comp-list' style='background-color:#E8A6C7;' bindtap='GotoLines'>
-    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
-    <text style='color:#FFFFFF;'>历年分数线</text>
-  </view>
-  <view class='comp-list' style='background-color:#8BAC3B;' bindtap='GotoLines'>
-    <image src='../../imgs/table.png' style='height:60rpx;width:60rpx;'></image>
-    <text style='color:#FFFFFF;'>历年分数线</text>
+  <view class='comp-list' style='background-color:#C065A8;' bindtap='GotoLocation'>
+    <image src='../../imgs/local.png' style='height:60rpx;width:60rpx;'></image>
+    <text style='color:#FFFFFF;'>高校位置</text>
   </view>
 </view>
 

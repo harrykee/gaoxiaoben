@@ -71,6 +71,11 @@ Page({
       url: 'ways/ways',
     })
   },
+  GotoLocation:function(){
+    wx.navigateTo({
+      url: 'location/location',
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

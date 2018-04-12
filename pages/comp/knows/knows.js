@@ -5,7 +5,44 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    majors: [
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related:"软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        englishname: "Computer Science and Technology",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+      {
+        majorname: "计算机科学与技术",
+        subject: "工学或理学",
+        related: "软件工程、通信工程"
+      },
+    ]
   },
 
   /**

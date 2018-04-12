@@ -9,6 +9,9 @@
     "pages/comp/school/school",
     "pages/comp/more/more",
     "pages/comp/article/article",
+    "pages/comp/location/location",
+    "pages/comp/major/major",
+    "pages/comp/sundry/sundry",
     "pages/mine/mine",
     "pages/mine/news/news",
     "pages/mine/qanda/qanda",
@@ -20,9 +23,9 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#DE3344",
     "navigationBarTitleText": "高校本",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#FFFFFF"
   },
   "tabBar": {
     "color": "#707070",

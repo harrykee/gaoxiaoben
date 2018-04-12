@@ -2,12 +2,19 @@
   <view class='question' bindtap='bindtapAsk'>提问</view>
 
 <view class='que-global'>
-  <view class='cards' style='' wx:for="{{quetions}}" wx:key="key">
+  <view class='cards'  wx:for="{{quetions}}" wx:key="key">
     <view class='que-card'>
       <navigator open-type='navigate' url='detpro/detpro'>
         <view class='quetioner'>
-          <image src='{{item.head}}' style='height:80rpx;width:80rpx;' />
-          <text>{{item.tittle}}</text>
+          <view class='quetion-infomatin'>
+            <image src='{{item.head}}' style='height:80rpx;width:80rpx;  border-radius: 8rpx;' />
+            <view class='quetion-name-time'>
+              <text>{{item.name}}</text>
+              <text style='font-size:30rpx;color:#E2E2E2;'>{{item.dates}}</text>
+            </view>
+          </view>
+          
+          <text style='font-size:36rpx;'>{{item.tittle}}</text>
         </view>
         <view class='que-label'>
           <view class='que-tag'>

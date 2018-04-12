@@ -15,7 +15,7 @@ page{
   display: inline-block;  
   width: 140rpx; 
   margin-left: 38rpx;
-  padding-top: 35rpx;
+  padding-top: 30rpx;
   font-size:34rpx; 
 } 
 .on{ color: #DE3344; 
@@ -27,7 +27,7 @@ page{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top:30rpx;
+  padding-top:20rpx;
 }
 .list-card{
   height:70rpx;
@@ -42,12 +42,19 @@ page{
   font-size:33rpx;
 }
 .college-table{
-  height:auto;
+  height:80rpx;
   width:100%;
   display: flex;
   flex-direction: row;
-  font-size: 33rpx;
-
+  align-items: center;
+  justify-content: center;
+  font-size: 35rpx;
+}
+.college-table:nth-child(ood){
+  background-color: #ffffff;
+}
+.college-table:nth-child(even){
+  background-color: #F3AD9C;
 }
 .map-like{
   height:500rpx;

@@ -2,7 +2,8 @@
 
 
 <view>
-  <view class="title">推荐报考</view>
+  <view class="title"> <image src='../../imgs/host.png' style='height:55rpx;width:55rpx;'/> <text style='margin-left:16rpx;'></text>
+  热门高校</view>
   
   <view class='school-card' wx:for="{{college}}" wx:key="key">
   <navigator open-type='navigate' url='detail/detail'>
@@ -15,7 +16,10 @@
         
         <text class="college-add">{{item.coladd}}</text>
       </view>
-      <image src='{{item.colicon}}' class="college-bad"></image>
+      <view class='icons-background'>
+        <image src='{{item.colicon}}' class="college-bad"></image>
+      </view>
+      
     </view>
   </navigator>
     

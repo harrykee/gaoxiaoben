@@ -14,29 +14,28 @@ page{
   border-bottom: 28rpx solid #EEEEEE;
 }
 .background-img{
-  height:200rpx;
-  width:200rpx;
+  height:180rpx;
+  width:180rpx;
   border:4rpx solid #FFFFFF;
   background-color: #DE3344;
-  border-radius: 100rpx;
+  border-radius: 90rpx;
   display:flex;
   flex-direction:column;
   align-items: center;
   justify-content: center;
 }
 .tx-img{
-  height:180rpx;
-  width:180rpx;
-  border-radius:90rpx;  
+  height:170rpx;
+  width:170rpx;
+  border-radius:85rpx;  
 }
 .username{
-  height:60rpx;
+  height:100rpx;
   width:360rpx;
-  margin-top:40rpx;
-  font-size:48rpx;
+  margin-top:30rpx;
+  font-size:46rpx;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   color:#FFFFFF;
 }

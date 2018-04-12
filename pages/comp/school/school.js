@@ -7,30 +7,37 @@ Page({
   data: {
     schools:[
       {badge:"../../../imgs/jmu.jpg",
-      name:"集美大学"},
+        name: "集美大学",
+        address: "厦门市集美区"},
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address: "厦门市集美区"
       },
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address: "厦门市集美区"
       },
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address: "厦门市集美区"
       },
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address: "厦门市集美区"
       },
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address: "厦门市集美区"
       },
       {
         badge: "../../../imgs/jmu.jpg",
-        name: "集美大学"
+        name: "集美大学",
+        address:"厦门市集美区"
       },
     ]
   },
